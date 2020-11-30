@@ -453,3 +453,7 @@ main figure {
 main #img-caption {
   text-align: center;
 }
+
+section h3 {
+  text-align: center;
+}
