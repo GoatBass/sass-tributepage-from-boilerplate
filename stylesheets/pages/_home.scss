@@ -21,6 +21,10 @@ main {
     }
 }
 
+img {
+    @include responsiveImage;
+}
+
 section {
     h3 {
         text-align: center;
