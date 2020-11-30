@@ -23,6 +23,11 @@
   }
 }
 
+//Add border
+@mixin addBorder {
+  border: 5px solid $brand-color;
+}
+
 /// Make a context based selector a little more friendly
 /// @author Hugo Giraudel
 /// @param {String} $context

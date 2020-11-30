@@ -451,6 +451,9 @@ main p {
 main figure {
   text-align: center;
 }
+main figure img {
+  border: 5px solid #5037cd;
+}
 main #img-caption {
   text-align: center;
 }

@@ -12,6 +12,9 @@ main {
     }
     figure {
         text-align: center;
+        img {
+            @include addBorder;
+        }
     }
     #img-caption{
         text-align: center;
