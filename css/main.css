@@ -458,3 +458,9 @@ main #img-caption {
 section h3 {
   text-align: center;
 }
+section ul {
+  list-style-type: square;
+}
+section ul li {
+  margin-top: 10px;
+}
