@@ -451,8 +451,10 @@ main p {
 main figure {
   text-align: center;
 }
-main figure img {
-  border: 5px solid #5037cd;
+@media (min-width: 768px) {
+  main figure img {
+    border: 5px solid #5037cd;
+  }
 }
 main #img-caption {
   text-align: center;

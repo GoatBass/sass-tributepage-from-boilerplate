@@ -12,8 +12,10 @@ main {
     }
     figure {
         text-align: center;
-        img {
-            @include addBorder;
+        @media (min-width: 768px){
+            img {
+                @include addBorder;
+            }
         }
     }
     #img-caption{
